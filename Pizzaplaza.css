@@ -1,0 +1,115 @@
+#Overskrift {
+    font-size: 300%;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#pizzalogo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+#linker {
+    margin-top: 2%;
+    padding: 10px;
+    position: relative;
+    left: 30%; 
+    border-radius: 10px;
+    font-size: 125%;
+    width: 37%;
+    text-align: center;
+}
+
+
+
+#link1 {
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    right: 50%;
+}
+#link2 {
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+}
+
+
+#Åpningstidertjukk {
+    font-size: 120%;
+}
+
+#Kontaktosstjukk {
+    font-size: 120%;
+}
+
+#t1 {
+    background-color: red;
+    margin: 0 auto;
+    height: 175px;
+    width: 100%;
+    
+
+    a {
+        margin: auto auto;
+    }
+}
+
+#t2 {
+    border: solid 2px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#hmm {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#undertabell {
+    height: 200px;
+    background-color: beige;
+    margin: auto auto;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+
+
+h5 {
+    position: relative;
+    top: 25px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#pizzamenyen {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "v h"; 
+}
+
+#pizzameny {
+    grid-area: v;
+}
+
+#hoyre {
+    grid-area: h;
+}

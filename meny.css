@@ -1,0 +1,132 @@
+
+
+#topp {
+    background-color: rgb(255, 228, 207);
+    position: relative;
+    height: 100px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14.5px;
+}
+
+body {
+    background-image: url(pizzabilde.jpg);
+    overflow-x: hidden;
+}
+
+
+#Pizza {
+    border: solid 1px;
+    text-align: center;
+    background-color: #ffe4cfc9;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Oleo Script", system-ui;  
+    height: 800px;
+}
+
+#pizzaz {
+    float: left;
+    margin-left: 15%;
+}
+
+#Rad2 {
+    text-decoration: underline;
+}
+
+#pizzalinje {
+    text-decoration: underline;
+}
+
+#kebab {
+    margin-left: 40px;
+    margin-top: 7%;
+    border: solid 2px;
+    border-radius: 20px;
+}
+
+#veggie {
+    float: right;
+    margin-top: 5%;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+#chicken {
+margin: 40px;
+margin-top: 7%;
+border: solid 2px;
+border-radius: 20px;
+}
+
+#kebabtekst {
+    float: right;
+    margin-top: 20%;
+    margin-right: 25%;
+    border: solid 1px;
+    padding: 10px;
+    background-color:#ffe4cfc9;
+    border-radius: 10px;
+    font-family: "Oleo Script", system-ui;
+}
+
+#veggiepizza {
+    float: right;
+    margin-top: 20%;
+    margin-right: 5%;
+    border: solid 1px;
+    padding: 10px;
+    background-color:#ffe4cfc9;
+    border-radius: 10px;
+    font-family: "Oleo Script", system-ui;
+}
+
+#chickenpizza {
+    margin-right: 25%;
+    float: right;
+    margin-top: 30%;
+    border: solid 1px;
+    padding: 10px;
+    background-color:#ffe4cfc9;
+    border-radius: 10px;
+    font-family: "Oleo Script", system-ui;
+}
+
+#bbq {
+    float: right;
+    margin-top: 5%;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+#bbqpizza {
+    margin-right: 5%;
+    float: right;
+    margin-top: 22%;
+    border: solid 1px;
+    padding: 10px;
+    background-color:#ffe4cfc9;
+    border-radius: 10px;
+    font-family: "Oleo Script", system-ui;
+}
+
+#bunn {
+    background-color: rgb(255, 228, 207);
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-top: 5%;
+
+}
